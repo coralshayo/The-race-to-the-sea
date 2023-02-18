@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Race To The Sea</title>
+    <meta name="description" content="the race to the sea game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="index.html">
+                <img src="images/logo.png" /> <!--הלוגו של המשחק שלכם-->
+            </a>
+        </div>
+        <!--תפריט הניווט בראש העמוד-->
+        <nav>
+            <ul>
+                <li><b><a class="about">אודות</a></b></li>
+                <li><a class="howToPlay">איך משחקים?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="aboutDiv" class="popUp bounceInDown hide">
+        <a class="closeAbout">.</a>
+        <a class="hitlink" href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a>
+
+    </div>
+    <div id="howToPlayDiv" class="popUp bounceInDown hide">
+        <a class="closeHowToPlay">X</a>
+
+    </div>
+
+    <div id="gameArea" class="">
+        <!--src = הקישור של דף המשחק שלכם -->
+        <iframe src="https://simmer.io/@Coral_Shayo/the-race-to-the-sea" style="width:72% ;height:102%"></iframe>
+    </div>
+</body>
+
+</html>
